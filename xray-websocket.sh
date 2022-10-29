@@ -1,9 +1,6 @@
 #!/bin/sh
 
-#input uuid & domain
 
-echo Enter a valid gen4 UUID:
-read UUID
 
 #configure timezone to sri lanka standards
 
@@ -50,7 +47,7 @@ cat << EOF > /usr/local/etc/xray/config.json
       "settings": {
         "clients": [
           {
-            "id": "$UUID"
+            "id": "87de143b-192a-42bc-9352-1ef1f6c47b5a"
           }
         ],
         "decryption": "none"
@@ -74,7 +71,7 @@ cat << EOF > /usr/local/etc/xray/config.json
       "settings": {
         "clients": [
           {
-            "id": "$UUID"
+            "id": "87de143b-192a-42bc-9352-1ef1f6c47b5a"
           }
         ],
         "decryption": "none"
